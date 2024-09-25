@@ -1,0 +1,10 @@
+### IntelliJ IDEA ###
+.idea
+
+### Github ###
+.github
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+/vendor/*

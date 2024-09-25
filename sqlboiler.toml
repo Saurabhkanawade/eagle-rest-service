@@ -1,0 +1,18 @@
+output   = "internal/dbmodels"
+no-tests = "true"
+no-hooks = "true"
+wipe = "true"
+add-soft-deletes="true"
+pkgname = "dbmodels"
+
+[psql]
+host="localhost"
+sslmode="disable"
+dbname = "employee"
+user = "postgres"
+pass = "omsairam"
+
+[auto-columns]
+deleted = "deleted_ts"
+created = "created_ts"
+updated = "updated_ts"
